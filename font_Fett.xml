@@ -1,0 +1,6 @@
+<skin>
+  <fonts>
+    <font filename="MetrixReloaded/fonts/segoeui.ttf" name="SetrixHD" scale="100" />
+    <font filename="MetrixReloaded/fonts/segoeui.ttf" name="Regular" scale="100" />
+  </fonts>
+</skin>
