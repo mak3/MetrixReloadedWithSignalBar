@@ -4676,12 +4676,13 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgheight / 2 - 
       <convert type="ValueBitTest">128</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget backgroundColor="windowBackground" font="font_standard" halign="center" position="760,1035" render="Label" size="120,40" source="Frontend" transparent="1" zPosition="1">
+    <eLabel text="SNR:" position="760,1035" size="67,40" font="SetrixHD; 28" backgroundColor="black" transparent="1" />
+    <widget source="session.FrontendStatus" render="Label" position="827,1035" size="70,40" font="SetrixHD; 28" backgroundColor="black" transparent="1">
       <convert type="FrontendInfo">SNRdB</convert>
     </widget>
-
-        <widget backgroundColor="windowBackground" font="font_standard" halign="center" position="880,1035" render="Label" size="120,40" source="Frontend" transparent="1" zPosition="1">
-      <convert type="FrontendInfo">SNR</convert>
+    <eLabel text="BER:" position="910,1035" size="62,40" font="SetrixHD; 28" backgroundColor="black" transparent="1" noWrap="1" />
+    <widget source="session.FrontendStatus" render="Label" position="972,1035" size="80,40" font="SetrixHD; 28" backgroundColor="black" transparent="1" noWrap="1">
+      <convert type="FrontendInfo">BER</convert>
     </widget>
   </screen>
   <!-- Clocks -->
